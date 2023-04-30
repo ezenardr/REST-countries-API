@@ -90,7 +90,7 @@ function Index() {
                                                 src={flags.svg}
                                                 alt={`flag of ${name.official}`}
                                             />
-                                            <div className="flex flex-col gap-2 mx-7 mb-7  flex-1">
+                                            <div className="flex flex-col gap-2 mx-7 mb-10  flex-1">
                                                 <p className=" font-extrabold text-lg pb-2">
                                                     {name.common}
                                                 </p>
@@ -98,7 +98,9 @@ function Index() {
                                                     <span className="font-semibold">
                                                         Population:
                                                     </span>
-                                                    {` ${population}`}
+                                                    {` ${population.toLocaleString(
+                                                        'en-US'
+                                                    )}`}
                                                 </p>
                                                 <p>
                                                     <span className="font-semibold">
