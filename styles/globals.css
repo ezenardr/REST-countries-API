@@ -5,6 +5,6 @@
 
 @layer base {
     body {
-        @apply bg-light-mode-bg dark:bg-dark-mode-bg text-light-mode-text dark:text-dark-mode-text;
+        @apply font-primary bg-light-mode-bg dark:bg-dark-mode-bg text-light-mode-text dark:text-dark-mode-text;
     }
 }
